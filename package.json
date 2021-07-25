@@ -1,0 +1,26 @@
+{
+  "name": "abhishekvtangod_blogs",
+  "version": "1.0.0",
+  "description": "Abhishek Tangod's blogs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishekvtangod",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.2",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "startbootstrap-clean-blog": "^5.0.10"
+  }
+}
